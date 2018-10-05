@@ -1,0 +1,160 @@
+$primarycolor:#5E2A0E;
+$solidcolor:rgb(255, 132, 0);
+$lightcolor:#E5AF4D;
+$colordark: #1B0906;
+
+h2{ 
+    color:$solidcolor;
+    font-size: 3em;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 25px $solidcolor, 0 0 5px rgb(0, 77, 36);
+    }
+
+body{
+    background: -webkit-radial-gradient(rgb(182, 62, 6), rgb(27, 9, 6));
+    background: radial-gradient(rgb(182, 62, 6), rgb(27, 9, 6));
+    font-size: 16px;
+  
+    header{
+        .nav-filter {
+            background-color: $colordark;
+            border: 1px;
+            li a{
+                color: $solidcolor;
+                font-size: 1.5em;
+            }
+        }
+        .nav-pills>li>a:hover {
+            background-color: $solidcolor;
+            color: $colordark;
+        }
+        .nav-pills .nav-link.active{
+            background-color: $solidcolor;
+            color:$colordark;
+        }
+
+        .nav-pills .open>a, .nav-pills .open>a:active, .nav-pills .open>a:focus{
+            background-color: $solidcolor;
+            color: $colordark;
+        } 
+    }
+    .jumbotron{
+        background: -webkit-radial-gradient(rgb(182, 62, 6), rgb(27, 9, 6));
+        background: radial-gradient(rgb(182, 62, 6), rgb(27, 9, 6));
+        border : 3px $colordark solid;
+        text-align:center;
+        
+        .title{
+            font-family: 'Anton', sans-serif;
+            display: block;
+            margin-left: auto;
+            margin-right: auto }
+            h1{ 
+                color:$solidcolor;
+                font-size: 3em;
+                text-shadow: 1px 1px 2px black, 0 0 25px $solidcolor, 0 0 5px rgb(0, 77, 36);
+                }
+            h2{   
+        color:$lightcolor;
+        font-size: 4em;
+        text-shadow: 1px 1px 2px black, 0 0 25px $solidcolor, 0 0 5px rgb(0, 77, 36);
+        }    
+        }
+        h3{
+        color: $solidcolor;
+        font-size: 3em;  
+        text-shadow: 1px 1px 2px black, 0 0 25px $solidcolor, 0 0 5px rgb(0, 77, 36);
+        }
+        h4{
+        color: $solidcolor;
+        font-size: 1.5em;
+        text-align: justify;  
+        }
+        h5{
+            color: $solidcolor;
+            font-size: 1.2em;
+            text-align: justify;   
+        }
+        .picture img{
+            box-shadow: 10px 10px;
+        }
+        
+    }
+    /* Carte */
+  
+.container .row{
+    margin-top: 25px;
+}
+   
+.carte .container{
+    margin: 25px auto;
+    border : 5px $colordark solid;
+    justify-content: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+}
+h6{
+    font-family: 'Lobster', cursive;
+    color: $lightcolor;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 2px black, 0 0 25px $solidcolor, 0 0 5px rgb(0, 77, 36);
+}
+.badge{
+    font-size: 1.1em;
+}
+
+/*Photos*/
+
+.gallery .container .row{
+    margin-top: 200px;
+    margin-bottom:30px;
+   
+
+}
+
+
+.page{
+    .pagination{
+        a{
+            margin-top: 30px;
+            text-decoration: none;
+            font-size: 2em;
+            background-color: #ff8400;
+            color: $colordark;
+            justify-content: center;
+            border : 2px $colordark solid;
+            letter-spacing: 10px;
+            line-height: 2.8;
+        }
+    }
+}
+
+
+.messages{
+    .controls{
+        .row{
+            .form-group{
+                .form-control{
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 6em;
+                    color: $colordark;
+                }
+        }
+    }
+    }
+}
+
+
+
+
+
+
+
+
+
+        

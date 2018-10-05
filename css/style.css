@@ -1,0 +1,143 @@
+h2 {
+  color: #ff8400;
+  font-size: 3em;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  text-shadow: 1px 1px 2px black, 0 0 25px #ff8400, 0 0 5px #004d24;
+}
+
+body {
+  background: radial-gradient(#b63e06, #1b0906);
+  font-size: 16px;
+}
+
+body header .nav-filter {
+  background-color: #1B0906;
+  border: 1px;
+}
+
+body header .nav-filter li a {
+  color: #ff8400;
+  font-size: 1.5em;
+}
+
+body header .nav-pills > li > a:hover {
+  background-color: #ff8400;
+  color: #1B0906;
+}
+
+body header .nav-pills .nav-link.active {
+  background-color: #ff8400;
+  color: #1B0906;
+}
+
+body header .nav-pills .open > a, body header .nav-pills .open > a:active, body header .nav-pills .open > a:focus {
+  background-color: #ff8400;
+  color: #1B0906;
+}
+
+body .jumbotron {
+  background: radial-gradient(#b63e06, #1b0906);
+  border: 3px #1B0906 solid;
+  text-align: center;
+}
+
+body .jumbotron .title {
+  font-family: 'Anton', sans-serif;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body .jumbotron h1 {
+  color: #ff8400;
+  font-size: 3em;
+  text-shadow: 1px 1px 2px black, 0 0 25px #ff8400, 0 0 5px #004d24;
+}
+
+body .jumbotron h2 {
+  color: #E5AF4D;
+  font-size: 4em;
+  text-shadow: 1px 1px 2px black, 0 0 25px #ff8400, 0 0 5px #004d24;
+}
+
+body h3 {
+  color: #ff8400;
+  font-size: 3em;
+  text-shadow: 1px 1px 2px black, 0 0 25px #ff8400, 0 0 5px #004d24;
+}
+
+body h4 {
+  color: #ff8400;
+  font-size: 1.5em;
+  text-align: justify;
+}
+
+body h5 {
+  color: #ff8400;
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+body .picture img {
+  -webkit-box-shadow: 10px 10px;
+          box-shadow: 10px 10px;
+}
+
+/* Carte */
+.container .row {
+  margin-top: 25px;
+}
+
+.carte .container {
+  margin: 25px auto;
+  border: 5px #1B0906 solid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+}
+
+h6 {
+  font-family: 'Lobster', cursive;
+  color: #E5AF4D;
+  font-size: 1.5em;
+  text-shadow: 1px 1px 2px black, 0 0 25px #ff8400, 0 0 5px #004d24;
+}
+
+.badge {
+  font-size: 1.1em;
+}
+
+/*Photos*/
+.gallery .container .row {
+  margin-top: 200px;
+  margin-bottom: 30px;
+}
+
+.page .pagination a {
+  margin-top: 30px;
+  text-decoration: none;
+  font-size: 2em;
+  background-color: #ff8400;
+  color: #1B0906;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 2px #1B0906 solid;
+  letter-spacing: 10px;
+  line-height: 2.8;
+}
+
+.messages .controls .row .form-group .form-control {
+  font-family: 'Roboto', sans-serif;
+  font-size: 6em;
+  color: #1B0906;
+}
+/*# sourceMappingURL=style.css.map */
